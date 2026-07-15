@@ -22,7 +22,7 @@ https://maloktyy16.vercel.app
 
 ## 📫 Contact
 - GitHub: https://github.com/imahdawi
-- LinkedIn: (ضع رابط لينكدإن هنا)
+- TikTok: https://tiktok.com/@imahdawi
 
 ---
 Made with ❤️ by Mahdi

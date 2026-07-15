@@ -1,0 +1,60 @@
+/* ====== DARK MODE (الافتراضي) ====== */
+body.dark {
+    --bg-primary: #0a0a1a;
+    --bg-secondary: #12122a;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0c0;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --border-color: rgba(0, 212, 255, 0.2);
+}
+
+/* ====== LIGHT MODE ====== */
+body.light {
+    --bg-primary: #f0f4ff;
+    --bg-secondary: #ffffff;
+    --text-primary: #0a0a1a;
+    --text-secondary: #4a4a6a;
+    --card-bg: rgba(255, 255, 255, 0.8);
+    --border-color: rgba(0, 212, 255, 0.3);
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+body.light .skill-card,
+body.light .project-card,
+body.light .timeline-content,
+body.light .testimonial-card,
+body.light .contact-item {
+    background: var(--card-bg);
+    backdrop-filter: none;
+}
+
+body.light .contact-form input,
+body.light .contact-form textarea {
+    background: var(--card-bg);
+    color: var(--text-primary);
+}
+
+body.light .btn-outline {
+    color: var(--text-primary);
+}
+
+body.light .hero-badge {
+    background: rgba(0, 212, 255, 0.1);
+}
+
+body.light .social-icon {
+    background: var(--card-bg);
+}
+
+body.light .social-icon:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+body.light .project-overlay {
+    background: rgba(0, 212, 255, 0.15);
+}
+
+body.light footer {
+    border-top-color: var(--border-color);
+}

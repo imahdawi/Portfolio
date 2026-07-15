@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahdi Ahmed | Front-End Developer</title>
+    
+    <!-- SEO -->
+    <meta name="description" content="Mahdi Ahmed - Front-End Developer building modern web experiences with HTML, CSS and JavaScript." />
+    <meta name="keywords" content="Front-End, HTML, CSS, JavaScript, Web Developer, Mahdi Ahmed" />
+    <meta name="author" content="Mahdi Ahmed" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dark-mode.css" />
+</head>
+<body>
+    
+    <!-- ====== LOADING SCREEN ====== -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">
+                <span>Wellcome to my Portfolio</span>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-percent">0%</p>
+        </div>
+    </div>
+
+    <!-- ====== CURSOR CUSTOM ====== -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- ====== MUSIC TOGGLE ====== -->
+    <button id="music-toggle" class="music-btn">
+        <i class="fas fa-music"></i>
+    </button>
+
+    <!-- ====== LANGUAGE TOGGLE ====== -->
+    <button id="lang-toggle" class="lang-btn">
+        <i class="fas fa-globe"></i>
+        <span>EN</span>
+    </button>
+
+    <!-- ====== DARK/LIGHT TOGGLE ====== -->
+    <button id="theme-toggle" class="theme-btn">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- ====== PARTICLES BACKGROUND ====== -->
+    <div id="particles-js"></div>
+
+    <!-- ====== MOUSE GLOW ====== -->
+    <div class="mouse-glow"></div>
+
+    <!-- ====== MAIN CONTENT ====== -->
+    <main>
+        
+        <!-- ====== HERO SECTION ====== -->
+        <section id="hero" class="section">
+            <div class="container">
+                <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              Available Now ✅
+                </div>
+                 <h1 class="hero-title">
+                      <span class="greeting">👋 مرحباً</span>
+                    <span class="name">أنا <span class="highlight">مهدي أحمد</span></span>
+                     <!-- 👈 هنا نضيف سطر منفصل للـ Typing -->
+                      <span class="typing-wrapper">
+                       <span class="typing-label"></span>
+                     <span id="typed-text"></span>
+                   </span>
+                     </h1>
+                      <p class="hero-desc">
+                      شغوف ببناء واجهات ويب حديثة. أتعلم وأطبّق يومياً، وأبحث عن فرص للتعاون والمشاركة في مشاريع حقيقية.
+                      </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> شوف شغلي
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> تواصل معي
+                        </a>
+                    </div>
+                    <div class="hero-social">
+    <a href="https://github.com/imahdawi" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+    <a href="https://tiktok.com/@imahdawi" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+    <a href="mailto:mahdi.business.new@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+    <a href="https://wa.me/201131218805" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+</div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="8">0</span>
+                            <span class="stat-label">مشاريع نفذتها</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="4">0</span>
+                            <span class="stat-label">مواقع منشورة</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-label">% شغف بالتعلم</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== WHAT I CAN BUILD ====== -->
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-tools"></i> إيه اللي بقدر أبنيه؟
+                </h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-landmark"></i></div>
+                        <h3>Landing Pages</h3>
+                        <p>صفحات هبوط جذابة ومُحسّنة لتحويل الزوار</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+                        <h3>Portfolio Websites</h3>
+                        <p>مواقع شخصية احترافية تعرض المهارات والمشاريع</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
+                        <h3>Dashboards</h3>
+                        <p>لوحات تحكم تفاعلية لعرض البيانات والإحصائيات</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3>Interactive UI</h3>
+                        <p>واجهات مستخدم تفاعلية مع أنيميشن وتأثيرات بصرية</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3>Responsive Websites</h3>
+                        <p>مواقع متجاوبة مع جميع أحجام الشاشات والأجهزة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== SKILLS SECTION ====== -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-cogs"></i> المهارات التقنية
+                </h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h3>HTML5</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h3>CSS3</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                        <h3>Bootstrap</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h3>Git & GitHub</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3>Responsive Design</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== PROJECTS SECTION ====== -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-project-diagram"></i> مشاريعي 🚀
+                </h2>
+                <div class="projects-grid">
+                    
+                    <!-- مشروع 1: BirthDay -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/BirthDay.jpg" alt="Malak Project"/>
+                            <div class="project-overlay">
+                                <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">تطبيق ويب</span>
+                            <h3>BirthDay</h3>
+                            <p>تطبيق ويب تفاعلي و مخصص يتميز بمؤقت للعلاقة يعمل في الوقت الفعلي وافكار عصرية جديدة</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 2: Portfolio -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/portfolio-project.jpg" alt="Portfolio Project">
+                            <div class="project-overlay">
+                                <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">Portfolio</span>
+                            <h3>البورتفوليو الشخصي</h3>
+                            <p>موقع شخصي يعرض المشاريع والمهارات بتصميم عصري وتفاعلي.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 3: Counter App -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/counter-project.jpg" alt="Counter App" onerror="this.src='https://via.placeholder.com/400x250/0a0a1a/00d4ff?text=Counter+App'" />
+                            <div class="project-overlay">
+                                <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">تطبيق تفاعلي</span>
+                            <h3>تطبيق العداد الذكي</h3>
+                            <p>عداد تفاعلي مع زيادة وتنقيص وإعادة تعيين، بواجهة أنيقة وسهلة.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 4: Landing Page -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/landing-project.jpg" alt="Landing Page" onerror="this.src='https://via.placeholder.com/400x250/0a0a1a/00d4ff?text=Landing+Page'" />
+                            <div class="project-overlay">
+                                <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">صفحة هبوط</span>
+                            <h3>صفحة هبوط احترافية</h3>
+                            <p>صفحة هبوط بتصميم جذاب مع أنيميشن وتأثيرات بصرية مذهلة.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== MY JOURNEY (بدل Timeline) ====== -->
+        <section id="journey" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-road"></i> رحلتي 🛤️
+                </h2>
+                <div class="journey-flow">
+                    <div class="journey-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>📚 2022 - بداية التعلم</h3>
+                            <p>اكتشفت عالم البرمجة وبدأت أتعلم HTML من الصفر</p>
+                        </div>
+                    </div>
+                    <div class="journey-arrow">↓</div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>🎨 CSS & تصميم</h3>
+                            <p>تعلمت CSS وبدأت أصمم واجهات جذابة ومنسقة</p>
+                        </div>
+                    </div>
+                    <div class="journey-arrow">↓</div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>⚡ JavaScript & تفاعل</h3>
+                            <p>دخلت عالم البرمجة التفاعلية وأضفت الحياة للمواقع</p>
+                        </div>
+                    </div>
+                    <div class="journey-arrow">↓</div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>💻 أول بورتفوليو</h3>
+                            <p>بنيت أول موقع شخصي يعرض مشاريعي ومهاراتي</p>
+                        </div>
+                    </div>
+                    <div class="journey-arrow">↓</div>
+                    
+                    <div class="journey-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>🚀 مشاريع تفاعلية</h3>
+                            <p>بدأت أنفذ مشاريع حقيقية زي Malak وتطبيقات مختلفة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== CONTACT SECTION ====== -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-envelope"></i> تواصل معي 📬
+                </h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                  <a href="https://github.com/imahdawi" target="_blank" class="contact-item">
+                   <i class="fab fa-github"></i>
+             <div>
+                  <h4>GitHub</h4>
+                  <span>تابع مشاريعي وشوف الكود</span>
+                 </div>
+                 </a>
+                 <a href="https://tiktok.com/@imahdawi" target="_blank" class="contact-item">
+                  <i class="fab fa-tiktok"></i>
+                  <div>
+                  <h4>TikTok</h4>
+                  <span>@imahdawi - محتوى برمجي وتعلم</span>
+                   </div>
+                 </a>
+                <a href="mailto:mahdi.business.new@gmail.com" class="contact-item">
+                   <i class="fas fa-envelope"></i>
+                   <div>
+                     <h4>البريد الإلكتروني</h4>
+                  <span>mahdi.business.new@gmail.com</span>
+                  </div>
+                  </a>
+                 <a href="https://wa.me/201131218805" target="_blank" class="contact-item">
+                 <i class="fab fa-whatsapp"></i>
+                  <div>
+                   <h4>WhatsApp</h4>
+                   <span>تواصل مباشر عبر واتساب</span>
+              </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ====== FOOTER ====== -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2026 <span class="highlight">مهدي أحمد</span> - Built with 💻 & ❤️</p>
+                <div class="footer-social">
+                    <a href="https://github.com/imahdawi" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://tiktok.com/@imahdawi" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="mailto:mahdi.business.new@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/201131218805" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- ====== SCRIPTS ====== -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/music.js"></script>
+
+</body>
+</html>

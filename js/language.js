@@ -6,7 +6,7 @@ let currentLang = 'ar';
 const translations = {
     ar: {
         heroBadge: ' متاح الأن ✅',
-        greeting: '👋 مرحباً',
+        greeting: 'ايه الدنيا',
         name: 'أنا <span class="highlight">مهدي أحمد</span>',
         typed: ['Front-End Developer', 'HTML & CSS', 'JavaScript', 'Building Modern Web', 'Learning Every Day'],
         desc: 'Front-End Developer شغوف ببناء واجهات ويب حديثة. أتعلم وأطبّق يومياً، وأبحث عن فرص للتعاون والمشاركة في مشاريع حقيقية.',
@@ -19,7 +19,7 @@ const translations = {
     },
     en: {
         heroBadge: 'Available Now ✅',
-        greeting: '👋 Hello',
+        greeting: 'Hi',
         name: 'I\'m <span class="highlight">Mahdi Ahmed</span>',
         typed: ['Front-End Developer', 'HTML & CSS', 'JavaScript', 'Building Modern Web', 'Learning Every Day'],
         desc: 'Passionate Front-End Developer building modern web experiences. I learn and apply daily, looking for opportunities to collaborate on real projects.',
